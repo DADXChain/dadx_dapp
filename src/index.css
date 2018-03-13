@@ -1,0 +1,140 @@
+/*
+ * GLOBALS
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #F4F7FA;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+p,
+.ui.header,
+.ui.card>.content>.header,
+.ui.cards>.card>.content>.header,
+.ui.items>.item>.content>.header,
+.ui.list .item a,
+:root .ui.header .sub.header,
+:root:root .statistic .label,
+:root:root .statistic .value,
+.inverted.menu .item,
+:root:root input[type="text"],
+:root:root input[type="password"] {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body::-webkit-scrollbar,
+.overflow-x::-webkit-scrollbar,
+.overflow-y::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+body::-webkit-scrollbar-track,
+.overflow-x::-webkit-scrollbar-track,
+.overflow-y::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+body::-webkit-scrollbar-thumb,
+.overflow-x::-webkit-scrollbar-thumb,
+.overflow-y::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+}
+
+body::-webkit-scrollbar-thumb:hover,
+.overflow-x::-webkit-scrollbar-thumb:hover,
+.overflow-y::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+p {
+  line-height: 1.6;
+}
+
+:root:root .ui.button.blue,
+:root:root .ui.blue.label,
+:root:root .ui.blue.labels .label {
+  background-color: #4585c7 !important;
+  border-color: #4585c7 !important;
+}
+
+:root:root .ui.button.purple {
+  background-color: #633e80;
+}
+
+:root:root .form input[type="text"],
+:root:root .form input[type="password"] {
+  background: #F4F7FA;
+  color: #686972;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-out;
+}
+
+:root:root .form input[type="text"]:focus,
+:root:root .form input[type="password"]:focus {
+  border-color: #536DEB;
+}
+
+:root:root .form .ui.input.error input[type="text"],
+:root:root .form .ui.input.error input[type="password"],
+:root:root .form input[type="text"].error,
+:root:root .form input[type="password"].error {
+  border: 1px solid #ea5e5e;
+}
+
+.BoxFrame {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 1px #b7b7b7;
+}
+
+.RootLoader{
+  position:relative;
+}
+
+.form label {
+  color: #54555d;
+}
+
+:root:root:root:root .MainSidebarWrap {
+  width: 15em !important;
+}
+
+:root:root:root:root .MainContainerWrap {
+  width: 100% !important;
+  padding-top: 0;
+  padding-left: 16em;
+}
+
+:root:root:root:root .MainContainerWrap > .ui.grid > span {
+  width: 100%;
+}
+
+/*utility margin styles*/
+.mt-25{margin-top:25px;}
+.mt-50{margin-top:50px;}
+.mt-100{margin-top:100px;}
+.mb-25{margin-bottom:25px;}
+.m-25{margin:25px 0;}
+
+/*utility padding styles*/
+.pd-15{padding:15px;}
+
+/*utility text center*/
+.t-center{text-align:center;}
+/*utility to hide and show*/
+.show{display:block !important;}
+.hide{display: none !important}
+/*utility font size*/
+.f-14{font-size:14px;}
+.f-16{font-size:16px;}
+.f-18{font-size:18px;}
+
+/*
+ * /END GLOBALS
+ */
